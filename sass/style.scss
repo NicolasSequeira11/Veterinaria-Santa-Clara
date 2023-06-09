@@ -5,7 +5,6 @@
 }
 
 body{
-    margin-top: 6%;
 }
 
 // Titles
@@ -19,12 +18,13 @@ body{
 
 .navbar{
     z-index: 2000;
-    margin-top: -6%;
+    position: sticky;
+    top: 0;
 }
 
 .nav-link{
     font-family: 'Fredoka', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
 }
 
@@ -32,14 +32,11 @@ body{
 
 .banner{
     display: flex;
-    width: 100%;
-    background-color: red;
 }
 
 .banner-img{
     display: flex;
     width: 100%;
-    max-height: 600px;
     margin: auto;
     object-fit: cover;
 }
@@ -101,4 +98,10 @@ body{
 .footer-text-cont-mobile{
     margin-top: 600px;
     width: 100%;
+}
+
+.footer-info{
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
 }

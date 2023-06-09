@@ -17,11 +17,11 @@
 <body>
 
     <!-- Nav -->
-    <nav class="navbar navbar-expand-md d-block bg-violet w-100 z-index-2000">
+    <nav class="navbar navbar-expand-md bg-violet w-100">
       <div class="container-fluid">
         <a class="navbar-brand d-flex d-md-none" href="#"><img src="images/vet1.png" width="100" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="navbar-toggler-icon bi bi-list"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav d-flex w-100 justify-content-end">
@@ -69,7 +69,7 @@
 
             <div class="col-lg-3 col-sm-6 col-xs-12 p-3 position-relative">
               <img src="images/services/clinica.jpg" class="col-12 h-75 object-fit-cover" alt="">
-              <div class="services-icon-cont bg-violet"><img src="images/icon/bone.png" class="services-icon w-100 p-2 object-fit-cover" alt=""></div>
+              <div class="bg-danger w-100 position-absolute"><div class="services-icon-cont bg-violet"><img src="images/icon/bone.png" class="services-icon w-100 p-2 object-fit-cover" alt=""></div></div>
               <p class="mt-5 text-violet justify-content-center d-flex services-title">Clínica Veterinaria</p>
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12 p-3 position-relative">
@@ -180,34 +180,41 @@
       <!-- Footer -->
     
       <div class="d-flex flex-row-reverse w-100">
-        <iframe class="w-100 position-absolute d-block" 
+        <iframe class="w-100 position-absolute d-xs-none d-md-block" 
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13094.078648388137!2d-56.1345915!3d-34.8682949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80bf88371017%3A0x9bd9917f37b57ef5!2sVeterinaria%20Santa%20Clara!5e0!3m2!1ses-419!2suy!4v1686199339318!5m2!1ses-419!2suy" 
-        width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="bg-violet position-relative text-white d-none d-md-block p-5 me-5">
-          <p class="d-flex justify-content-center footer-title">HORARIOS</p>
-            <div>
-              <p class="d-inline-block p-3 w-50 footer-text">Lun - Vie <br> Sáb <br> Dom</p>
-              <p class="d-inline-block p-3 footer-text">09 - 19hs <br> 09 - 15hs <br> 10 - 13hs </p>
-            </div>
-          <p class="d-flex justify-content-center footer-title">CONTACTO</p>
-            <div>
-              <p class="d-inline-block p-3 footer-text">WhatsApp <br> Telefono <br> Urgencia</p>
-              <p class="d-inline-block p-3 footer-text">097 983 142 <br> 2 506 49 79 <br> 099 630 238</p>
-            </div>
+        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="bg-violet position-relative text-white d-none d-md-flex p-5 footer-text-cont">
+          <div class="h-100 justify-content-center d-flex flex-column">
+            <p class="d-flex justify-content-center w-100 footer-title">HORARIOS</p>
+              <div class="d-flex justify-content-between">
+                <p class="d-inline-block footer-text">Lun - Vie <br> Sáb <br> Dom</p>
+                <p class="d-inline-block footer-text">09 - 19hs <br> 09 - 15hs <br> 10 - 13hs </p>
+              </div>
+            <p class="d-flex justify-content-center w-100 footer-title">CONTACTO</p>
+              <div class="d-flex justify-content-between">
+                <p class="d-inline-block footer-text">WhatsApp <br> Telefono <br> Urgencia</p>
+                <p class="d-inline-block footer-text">097 983 142 <br> 2 506 49 79 <br> 099 630 238</p>
+              </div>
+          </div>
         </div>
 
         <!-- Footer Info Mobile -->
-        <div class="bg-violet d-xs-flex d-md-none text-white p-5 footer-text-cont-mobile">
-          <p class="d-flex justify-content-center footer-title">HORARIOS</p>
-            <div class="w-100 d-flex justify-content-evenly">
-              <p class="d-inline-block p-3 footer-text">Lun - Vie <br> Sáb <br> Dom</p>
-              <p class="d-inline-block p-3 footer-text">09 - 19hs <br> 09 - 15hs <br> 10 - 13hs </p>
-            </div>
-          <p class="d-flex justify-content-center footer-title">CONTACTO</p>
-            <div class="w-100 d-flex justify-content-evenly">
-              <p class="d-inline-block p-3 footer-text">WhatsApp <br> Telefono <br> Urgencia</p>
-              <p class="d-inline-block p-3 footer-text">097 983 142 <br> 2 506 49 79 <br> 099 630 238</p>
-            </div>
+        <iframe class="w-100 position-absolute d-xs-block d-md-none" 
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13094.078648388137!2d-56.1345915!3d-34.8682949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80bf88371017%3A0x9bd9917f37b57ef5!2sVeterinaria%20Santa%20Clara!5e0!3m2!1ses-419!2suy!4v1686199339318!5m2!1ses-419!2suy" 
+        width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="bg-violet d-xs-flex d-md-none text-white py-5 footer-text-cont-mobile">
+          <div class="h-100 d-flex flex-column">
+            <p class="d-flex justify-content-center footer-title">HORARIOS</p>
+              <div class="w-75 d-flex mx-auto justify-content-evenly">
+                <p class="d-inline-block fs-5 footer-text">Lun - Vie <br> Sáb <br> Dom</p>
+                <p class="d-inline-block fs-5 footer-text">09 - 19hs <br> 09 - 15hs <br> 10 - 13hs </p>
+              </div>
+            <p class="d-flex justify-content-center footer-title">CONTACTO</p>
+              <div class="w-75 d-flex mx-auto justify-content-evenly">
+                <p class="d-inline-block fs-5 footer-text">WhatsApp <br> Telefono <br> Urgencia</p>
+                <p class="d-inline-block fs-5 footer-text">097 983 142 <br> 2 506 49 79 <br> 099 630 238</p>
+              </div>
+          </div>
         </div>
       </div>
 

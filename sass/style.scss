@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 6%;
+}
+
+// Titles
+
+.title{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+}
+
+// Navbar
+
+.navbar{
+    z-index: 2000;
+    margin-top: -6%;
+}
+
+.nav-link{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+// Banner 
+
+.banner{
+    display: flex;
+    width: 100%;
+    background-color: red;
+}
+
+.banner-img{
+    display: flex;
+    width: 100%;
+    max-height: 600px;
+    margin: auto;
+    object-fit: cover;
+}
+
+// Services
+
+.services-title{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.services-icon-cont{
+    position: absolute;
+    width: 20%;
+    top: 65%;
+    right: 40%;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
+// Schedule
+
+.schedule-button{
+    position: absolute;
+    width: 25%;
+    top: 70%;
+    right: 62%;
+    background-color: #7ed957;
+    border-radius: 50px;
+}
+
+// Reviews
+
+.reviews-name{
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+.reviews-text{
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+// Footer
+
+.footer-title{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.footer-text{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer-text-cont-mobile{
+    margin-top: 600px;
+    width: 100%;
+}

@@ -26,10 +26,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav d-flex w-100 justify-content-end">
             <li class="nav-item">
-              <a class="nav-link mx-2 text-white" href="#">Inicio</a>
+              <a class="nav-link mx-2 text-white" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2 text-white" href="#">Servicios</a>
+              <a class="nav-link mx-2 text-white" href="index.html#services">Servicios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-2 text-white" href="html/tips.html">Consejos</a>
@@ -38,7 +38,7 @@
           <a class="navbar-brand d-none d-md-flex m-auto px-5" href="#"><img src="images/vet1.png" class="m-auto" width="100" alt=""></a>
           <ul class="navbar-nav d-flex w-100">
             <li class="nav-item">
-              <a class="nav-link mx-2 text-white" href="index.html#agenda">Agenda</a>
+              <a class="nav-link mx-2 text-white" href="html/alimentos.html">Alimentos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-2 text-white" href="#">Nosotros</a>
@@ -59,12 +59,12 @@
 
     <!-- Services -->
 
-      <div class="container">
+      <div class="container" id="services">
         <div class="row">
 
             <div class="col-12 py-5 d-block m-auto">
-              <h2 class="text-violet display-4 d-flex justify-content-center title">Nuestros Servicios</h2>
-              <img src="images/title.png" class="d-flex m-auto w-25" alt="">
+              <h2 class="text-violet display-4 d-flex justify-content-center title text-center">Nuestros Servicios</h2>
+              <img src="images/title.png" class="d-flex m-auto title-img" alt="">
             </div>
 
             <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column position-relative">
@@ -78,12 +78,12 @@
               <p class="text-violet justify-content-center d-flex services-title">Peluquería Canina</p>
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column position-relative">
-              <img src="images/services/vacunas.jpg" class="services-img object-fit-cover" alt="">
+              <a href="html/vacunas.html"><div class="services-img-cont"><img src="images/services/vacunas.jpg" class="services-img object-fit-cover" alt=""></div></a>
               <div class="services-icon-cont d-flex position-relative"><i class="fa-solid fa-syringe bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
               <p class="text-violet justify-content-center d-flex services-title">Vacunas</p>
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column position-relative">
-              <img src="images/services/alimentos.jpg" class="services-img object-fit-cover" alt="">
+              <a href="html/alimentos.html"><div class="services-img-cont"><img src="images/services/alimentos.jpg" class="services-img object-fit-cover" alt=""></div></a>
               <div class="services-icon-cont d-flex position-relative"><i class="fa-sharp fa-solid fa-bowl-food bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
               <p class="text-violet justify-content-center d-flex services-title">Alimentos</p>
             </div>
@@ -123,8 +123,8 @@
         <div class="row">
 
             <div class="col-12 py-5 d-block m-auto">
-              <h2 class="text-violet display-4 d-flex justify-content-center title">Reseñas Google</h2>
-              <img src="images/title.png" class="d-flex m-auto w-25" alt="">
+              <h2 class="text-violet display-4 d-flex justify-content-center title text-center">Reseñas Google</h2>
+              <img src="images/title.png" class="d-flex m-auto title-img" alt="">
             </div>
 
             <div class="col-lg-4 col-sm-6 col-xs-12 p-3 bg-light border border-white border-5">
@@ -174,7 +174,7 @@
       <!-- Schedule -->
 
       <div class="w-100 h-25 py-5 d-flex" id="agenda">
-        <a href="#" class="w-100"><img src="images/agenda.png" class="d-flex w-100" alt=""></a>
+        <a href="https://api.whatsapp.com/send?phone=59897983142&text=Hola!%20Quiero%20agendar%20turno%20para%20peluquer%C3%ADa%20canina%20" target="_blank" class="w-100"><img src="images/agenda.png" class="d-flex w-100" alt=""></a>
       </div>
 
       <!-- Footer -->
@@ -182,7 +182,7 @@
       <div class="d-flex flex-row-reverse w-100" id="contacto">
         <iframe class="w-100 position-absolute d-xs-none d-md-block" 
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13094.078648388137!2d-56.1345915!3d-34.8682949!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80bf88371017%3A0x9bd9917f37b57ef5!2sVeterinaria%20Santa%20Clara!5e0!3m2!1ses-419!2suy!4v1686199339318!5m2!1ses-419!2suy" 
-        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="bg-violet position-relative text-white d-none d-md-flex p-5 footer-text-cont">
           <div class="h-100 justify-content-center d-flex flex-column">
             <p class="d-flex justify-content-center w-100 footer-title">HORARIOS</p>
@@ -190,6 +190,7 @@
                 <p class="d-inline-block footer-text">Lun - Vie <br> Sáb <br> Dom</p>
                 <p class="d-inline-block footer-text">09 - 19hs <br> 09 - 15hs <br> 10 - 13hs </p>
               </div>
+              <div class="m-3"></div>
             <p class="d-flex justify-content-center w-100 footer-title">CONTACTO</p>
               <div class="d-flex justify-content-between">
                 <p class="d-inline-block footer-text">WhatsApp <br> Telefono <br> Urgencia</p>
@@ -209,6 +210,7 @@
                 <p class="d-inline-block fs-5 footer-text">Lun - Vie <br> Sáb <br> Dom</p>
                 <p class="d-inline-block fs-5 footer-text">09 - 19hs <br> 09 - 15hs <br> 10 - 13hs </p>
               </div>
+              <div class="m-3"></div>
             <p class="d-flex justify-content-center footer-title">CONTACTO</p>
               <div class="w-75 d-flex mx-auto justify-content-evenly">
                 <p class="d-inline-block fs-5 footer-text">WhatsApp <br> Telefono <br> Urgencia</p>

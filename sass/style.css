@@ -7,6 +7,11 @@
 .title {
   font-family: "Fredoka", sans-serif;
   font-weight: 700;
+  font-size: 3em;
+}
+
+.title-img {
+  width: 10em;
 }
 
 .navbar {
@@ -18,7 +23,7 @@
 .nav-link {
   font-family: "Fredoka", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .banner {
@@ -44,10 +49,17 @@
   top: -1.5em;
 }
 
+.services-img-cont {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
 .services-img {
   display: flex;
   width: 100%;
   height: 250px;
+  transition: all 0.5s;
 }
 
 .services-icon {
@@ -58,6 +70,10 @@
   margin: auto;
   border: 4px solid white;
   border-radius: 50px;
+}
+
+.services-img-cont:hover > .services-img {
+  transform: scale(1.2);
 }
 
 .schedule-button {
@@ -88,11 +104,11 @@
 .footer-text {
   font-family: "Fredoka", sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .footer-text-cont {
-  height: 400px;
+  height: 500px;
   width: 20em;
   margin-right: 4em;
   flex-direction: column;

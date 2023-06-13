@@ -7,9 +7,6 @@ $font-second: 'Open sans', sans-serif;
     padding: 0;
 }
 
-body{
-}
-
 // Titles
 
 .title{
@@ -66,6 +63,7 @@ body{
     width: 100%;
     height: 250px;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .services-img{

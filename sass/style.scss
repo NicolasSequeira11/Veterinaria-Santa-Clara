@@ -29,7 +29,7 @@ $font-second: 'Open sans', sans-serif;
 
 .navbar{
     z-index: 2000;
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 
@@ -37,10 +37,6 @@ $font-second: 'Open sans', sans-serif;
     font-family: $font-first;
     font-weight: 600;
     font-size: 1.1em;
-}
-
-.nav-button{
-    
 }
 
 // Banner 

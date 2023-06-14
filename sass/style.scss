@@ -29,7 +29,7 @@ $font-second: 'Open sans', sans-serif;
 
 .navbar{
     z-index: 2000;
-    position: fixed;
+    position: sticky;
     top: 0;
 }
 

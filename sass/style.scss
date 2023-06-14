@@ -33,6 +33,10 @@ $font-second: 'Open sans', sans-serif;
     top: 0;
 }
 
+.navbar-toggler:hover{
+    box-shadow: none;
+}
+
 .nav-link{
     font-family: $font-first;
     font-weight: 600;

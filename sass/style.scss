@@ -10,6 +10,12 @@ $font-second: 'Open sans', sans-serif;
 
 // Titles
 
+.header-info-title{
+    font-family: $font-second;
+    font-weight: 400;
+    font-size: 12px;
+}
+
 .title{
     font-family: $font-first;
     font-weight: 700;
@@ -34,10 +40,10 @@ $font-second: 'Open sans', sans-serif;
 
 // Navbar
 
-.navbar{
+header{
     z-index: 2000;
     position: sticky;
-    top: 0;
+    top: 0;  
 }
 
 .navbar-toggler:hover{

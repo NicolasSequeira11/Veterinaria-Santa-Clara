@@ -5,6 +5,7 @@ $font-second: 'Open sans', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior:smooth;
 }
 
 // Titles
@@ -12,7 +13,7 @@ $font-second: 'Open sans', sans-serif;
 .title{
     font-family: $font-first;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .title-img{
@@ -23,6 +24,12 @@ $font-second: 'Open sans', sans-serif;
     font-family: $font-first;
     font-weight: 700;
     font-size: 1.5em;
+}
+
+.services-title{
+    font-family: $font-first;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 // Navbar
@@ -58,13 +65,6 @@ $font-second: 'Open sans', sans-serif;
 
 // Services
 
-.services-title{
-    font-family: $font-first;
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: -0.5em;
-}
-
 .services-icon-cont{
     top: -1.5em;
 }
@@ -74,7 +74,6 @@ $font-second: 'Open sans', sans-serif;
     height: 250px;
     overflow: hidden;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 .services-img{
@@ -96,7 +95,7 @@ $font-second: 'Open sans', sans-serif;
 }
 
 .services-img-cont:hover > .services-img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .services-cita-cont{

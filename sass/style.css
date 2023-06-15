@@ -2,12 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .title {
   font-family: "Fredoka", sans-serif;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .title-img {
@@ -18,6 +19,12 @@
   font-family: "Fredoka", sans-serif;
   font-weight: 700;
   font-size: 1.5em;
+}
+
+.services-title {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .navbar {
@@ -48,13 +55,6 @@
      object-fit: cover;
 }
 
-.services-title {
-  font-family: "Fredoka", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  margin-top: -0.5em;
-}
-
 .services-icon-cont {
   top: -1.5em;
 }
@@ -65,7 +65,6 @@
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 10px;
 }
 
 .services-img {
@@ -88,7 +87,7 @@
 }
 
 .services-img-cont:hover > .services-img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .services-cita-cont {

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="sass/style-bootstrap.css"> 
     <!-- Css - Sass -->
     <link rel="stylesheet" href="sass/style.css"> 
+    <!-- Icono -->
+    <link rel="shortcut icon" href="icono.png" type="image/x-icon">
 </head>
 <body>
 
@@ -24,27 +26,27 @@
           <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav d-flex w-100 justify-content-end">
+          <ul class="navbar-nav d-flex w-100 justify-content-end text-center">
             <li class="nav-item">
-              <a class="nav-link mx-2 text-white" href="index.html">Inicio</a>
+              <a class="nav-link mx-2 my-1 text-white" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2 text-white" href="index.html#services">Servicios</a>
+              <a class="nav-link mx-2 my-1 text-white" href="index.html#services">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2 text-white" href="html/tips.html">Consejos</a>
+              <a class="nav-link mx-2 my-1 text-white" href="html/tips.html">Consejos</a>
             </li>
           </ul>
           <a class="navbar-brand d-none d-md-flex m-auto px-5" href="index.html"><img src="images/vet1.png" class="m-auto" width="100" alt=""></a>
-          <ul class="navbar-nav d-flex w-100">
+          <ul class="navbar-nav d-flex w-100 text-center">
             <li class="nav-item">
-              <a class="nav-link mx-2 text-white" href="html/alimentos.html">Alimentos</a>
+              <a class="nav-link mx-2 my-1 text-white" href="html/alimentos.html">Alimentos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2 text-white" href="#">Nosotros</a>
+              <a class="nav-link mx-2 my-1 text-white" href="#">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2 text-white" href="index.html#contacto">Contacto</a>
+              <a class="nav-link mx-2 my-1 text-white" href="index.html#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -53,8 +55,28 @@
 
     <!-- Banner -->
 
-      <div class="banner">
-          <div class="w-100"><img src="images/background-home.png" class="banner-img" alt=""></div>
+      <div class="container banner">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/background-home1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/background-home1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/background-home1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
 
     <!-- Services -->
@@ -67,45 +89,76 @@
               <img src="images/title.png" class="d-flex m-auto title-img" alt="">
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column">
-              <a href="html/odontologia.html"><div class="services-img-cont"><img src="images/services/odontologia.webp" class="services-img object-fit-cover" alt=""></div></a>
-              <div class="services-icon-cont d-flex position-relative"><i class="fa-solid fa-tooth bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
-              <p class="text-violet justify-content-center d-flex services-title">Odontología</p>
+            <div class="col-xs-12 col-sm-6 col-lg-3 justify-content-center">
+              <div class="col-lg-12">
+                <a href="html/odontologia.html"><div class="services-img-cont"><img src="images/services/odontologia.webp" class="services-img object-fit-cover" alt=""></div></a>
+              </div>
+              <div class="col-lg-12 bg-violet">
+                <p class="text-white justify-content-center d-flex services-title">Odontología</p>
+              </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column">
-              <a href="html/peluqueria.html"><div class="services-img-cont"><img src="images/services/peluqueria.jpg" class="services-img object-fit-cover" alt=""></div></a>
-              <div class="services-icon-cont d-flex position-relative"><i class="fa-solid fa-scissors bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
-              <p class="text-violet justify-content-center d-flex services-title">Peluquería Canina</p>
+
+            <div class="col-xs-12 col-sm-6 col-lg-3 justify-content-center">
+              <div class="col-lg-12">
+                <a href="html/castracion.html"><div class="services-img-cont"><img src="images/services/castracion.jpg" class="services-img object-fit-cover" alt=""></div></a>
+              </div>
+              <div class="col-lg-12 bg-violet">
+                <p class="text-white justify-content-center d-flex services-title">Castración</p>
+              </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column">
-              <a href="html/vacunas.html"><div class="services-img-cont"><img src="images/services/vacunas.jpg" class="services-img object-fit-cover" alt=""></div></a>
-              <div class="services-icon-cont d-flex position-relative"><i class="fa-solid fa-syringe bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
-              <p class="text-violet justify-content-center d-flex services-title">Vacunas</p>
+
+            <div class="col-xs-12 col-sm-6 col-lg-3 justify-content-center">
+              <div class="col-lg-12">
+                <a href="html/desparasitacion.html"><div class="services-img-cont"><img src="images/services/desparasitacion.webp" class="services-img object-fit-cover" alt=""></div></a>
+              </div>
+              <div class="col-lg-12 bg-violet">
+                <p class="text-white justify-content-center d-flex services-title">Desparasitación</p>
+              </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column">
-              <a href="html/alimentos.html"><div class="services-img-cont"><img src="images/services/alimentos.jpg" class="services-img object-fit-cover" alt=""></div></a>
-              <div class="services-icon-cont d-flex position-relative"><i class="fa-sharp fa-solid fa-bowl-food bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
-              <p class="text-violet justify-content-center d-flex services-title">Alimentos</p>
+
+            <div class="col-xs-12 col-sm-6 col-lg-3 justify-content-center">
+              <div class="col-lg-12">
+                <a href="html/accesorios.html"><div class="services-img-cont"><img src="images/services/accesorios.jpg" class="services-img object-fit-cover" alt=""></div></a>
+              </div>
+              <div class="col-lg-12 bg-violet">
+                <p class="text-white justify-content-center d-flex services-title">Accesorios</p>
+              </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column">
-              <a href="html/desparasitacion.html"><div class="services-img-cont"><img src="images/services/desparasitacion.webp" class="services-img object-fit-cover" alt=""></div></a>
-              <div class="services-icon-cont d-flex position-relative"><i class="fa-solid fa-bacterium bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
-              <p class="text-violet justify-content-center d-flex services-title">Desparasitación</p>
+
+            <div class="col-xs-12 col-sm-6 col-lg-3 justify-content-center">
+              <div class="col-lg-12">
+                <a href="html/vacunas.html"><div class="services-img-cont"><img src="images/services/vacunas.jpg" class="services-img object-fit-cover" alt=""></div></a>
+              </div>
+              <div class="col-lg-12 bg-violet">
+                <p class="text-white justify-content-center d-flex services-title">Vacunas</p>
+              </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column">
-              <a href="html/accesorios.html"><div class="services-img-cont"><img src="images/services/accesorios.jpg" class="services-img object-fit-cover" alt=""></div></a>
-              <div class="services-icon-cont d-flex position-relative"><i class="fa-solid fa-bone bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
-              <p class="text-violet justify-content-center d-flex services-title">Accesorios</p>
+
+            <div class="col-xs-12 col-sm-6 col-lg-3 justify-content-center">
+              <div class="col-lg-12">
+                <a href="html/peluqueria.html"><div class="services-img-cont"><img src="images/services/peluqueria.jpg" class="services-img object-fit-cover" alt=""></div></a>
+              </div>
+              <div class="col-lg-12 bg-violet">
+                <p class="text-white justify-content-center d-flex services-title">Peluquería Canina</p>
+              </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column">
-              <a href="html/ecografia.html"><div class="services-img-cont"><img src="images/services/ecografia.jpg" class="services-img object-fit-cover" alt=""></div></a>
-              <div class="services-icon-cont d-flex position-relative"><i class="fa-sharp fa-solid fa-stethoscope bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
-              <p class="text-violet justify-content-center d-flex services-title">Ecografía</p>
+
+            <div class="col-xs-12 col-sm-6 col-lg-3 justify-content-center">
+              <div class="col-lg-12">
+                <a href="html/alimentos.html"><div class="services-img-cont"><img src="images/services/alimentos.jpg" class="services-img object-fit-cover" alt=""></div></a>
+              </div>
+              <div class="col-lg-12 bg-violet">
+                <p class="text-white justify-content-center d-flex services-title">Alimentos</p>
+              </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 d-flex justify-content-center flex-column">
-              <a href="html/castracion.html"><div class="services-img-cont"><img src="images/services/castracion.jpg" class="services-img object-fit-cover" alt=""></div></a>
-              <div class="services-icon-cont d-flex position-relative"><i class="fa-solid fa-paw bg-violet services-icon p-3" style="color: #ffffff;"></i></div>
-              <p class="text-violet justify-content-center d-flex services-title">Castración</p>
+
+            <div class="col-xs-12 col-sm-6 col-lg-3 justify-content-center">
+              <div class="col-lg-12">
+                <a href="html/ecografia.html"><div class="services-img-cont"><img src="images/services/ecografia.jpg" class="services-img object-fit-cover" alt=""></div></a>
+              </div>
+              <div class="col-lg-12 bg-violet">
+                <p class="text-white justify-content-center d-flex services-title">Ecografía</p>
+              </div>
             </div>
 
         </div>
@@ -113,7 +166,7 @@
 
       <!-- Tips -->
 
-      <div class="w-100 h-25 py-5 d-flex">
+      <div class="container h-25 py-5 mx-auto d-flex">
         <a href="html/tips.html" class="w-100"><img src="images/consejos.png" class="d-flex w-100" alt=""></a>
       </div>
 
@@ -173,7 +226,7 @@
 
       <!-- Schedule -->
 
-      <div class="w-100 h-25 py-5 d-flex" id="agenda">
+      <div class="container w-100 h-25 py-5 d-flex" id="agenda">
         <a href="https://api.whatsapp.com/send?phone=59897983142&text=Hola!%20Quiero%20agendar%20turno%20para%20peluquer%C3%ADa%20canina%20" target="_blank" class="w-100"><img src="images/agenda.png" class="d-flex w-100" alt=""></a>
       </div>
 

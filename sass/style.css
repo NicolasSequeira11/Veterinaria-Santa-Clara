@@ -49,6 +49,12 @@ header {
   font-size: 1.1em;
 }
 
+.title-container {
+  padding: 40px;
+  background-image: url("../images/background-title.png");
+  background-size: cover;
+}
+
 .banner {
   display: flex;
 }

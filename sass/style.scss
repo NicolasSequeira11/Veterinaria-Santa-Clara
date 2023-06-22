@@ -32,12 +32,6 @@ $font-second: 'Open sans', sans-serif;
     font-size: 1.5em;
 }
 
-.services-title{
-    font-family: $font-first;
-    font-weight: 600;
-    font-size: 25px;
-}
-
 // Navbar
 
 header{
@@ -59,7 +53,7 @@ header{
 // Title
 
 .title-container{
-    padding: 40px;
+    padding: 35px;
     background-image: url("../images/background-title.png");
     background-size: cover;
 }
@@ -79,23 +73,18 @@ header{
 
 // Services
 
+.services-title{
+    font-family: $font-first;
+    font-weight: 600;
+    font-size: 25px;
+}
+
 .services-icon-cont{
-    top: -1.5em;
-}
-
-.services-img-cont{
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
-    object-fit: cover;
-}
-
-.services-img{
     display: flex;
-    width: 100%;
-    height: 250px;
-    transition: all 0.4s;
-    object-fit: cover;
+    position: relative;
+    top: -7.5em;
+    opacity: 0;
+    transition: all 0.5s;
 }
 
 .services-icon{
@@ -104,12 +93,28 @@ header{
     height: auto;
     justify-content: center;
     margin: auto;
-    border: 4px solid white;
-    border-radius: 50px;
 }
 
-.services-img-cont:hover > .services-img{
+.services-cont{
+    overflow: hidden;
+}
+
+.services-img{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+
+.services-cont:hover > .services-img{
     transform: scale(1.1);
+    opacity: 0.2;
+}
+
+.services-cont:hover > .services-icon-cont{
+    opacity: 1;
+    transform: scale(2);
 }
 
 .services-cita-cont{
